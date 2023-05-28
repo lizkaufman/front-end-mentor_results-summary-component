@@ -25,26 +25,38 @@
   <body
     class="h-screen font-sans text-center flex flex-col justify-center items-center"
   >
-    <main class="flex flex-row w-720 rounded-3xl">
+    <main class="flex flex-col sm:flex-row smw-720 rounded-3xl">
       <section
-        class="flex flex-col w-1/2 items-center bg-gradient-to-b from-grad-light-slate-blue to-grad-light-royal-blue rounded-3xl"
+        class="flex flex-col sm:w-1/2 items-center bg-gradient-to-b from-grad-light-slate-blue to-grad-light-royal-blue rounded-b-3xl sm:rounded-3xl"
       >
-        <h1 class="text-light-lavender py-8 text-2xl">Your Result</h1>
+        <h1
+          class="text-light-lavender mt-4 sm:mt-0 py-6 sm:py-8 text-xl sm:text-2xl"
+        >
+          Your Result
+        </h1>
         <div
           class="flex flex-col py-10 px-12 rounded-full bg-gradient-to-t from-grad-persian-blue to-grad-violet-blue"
         >
-          <span class="text-white text-6xl font-bold">76</span
+          <span class="text-white text-5xl sm:text-6xl font-bold">76</span
           ><span class="text-light-lavender">of 100</span>
         </div>
-        <h2 class="text-white font-bold pt-7 pb-4 text-3xl">Great</h2>
-        <p class="text-light-lavender px-12 text-p pb-10">
+        <h2
+          class="text-white font-bold pt-6 sm:pt-7 pb-2 sm:pb-4 text-2xl sm:text-3xl"
+        >
+          Great
+        </h2>
+        <p class="text-light-lavender px-12 text-p pb-8 sm:pb-10">
           You scored higher than 65% of the people who have taken these tests.
         </p>
       </section>
-      <section class="flex flex-col w-1/2 items-center">
-        <h1 class="pt-8 pb-6 text-2xl text-dark-gray-blue">Summary</h1>
+      <section class="flex flex-col sm:w-1/2 sm:items-center">
+        <h1
+          class="pb-6 pt-8 sm:pb-6 text-xl font-bold sm:text-2xl text-dark-gray-blue text-left w-5/6 mx-auto"
+        >
+          Summary
+        </h1>
         <div
-          class="rounded-lg bg-light-red bg-opacity-10 py-3 my-1.5 flex flex-row items-center justify-start w-4/5"
+          class="rounded-lg bg-light-red bg-opacity-10 py-4 sm:py-3 my-1.5 flex flex-row items-center justify-start mx-auto w-5/6"
         >
           <img
             class="px-3"
@@ -58,7 +70,7 @@
           </p>
         </div>
         <div
-          class="rounded-lg bg-orangey-yellow bg-opacity-10 py-3 my-1.5 flex flex-row items-center justify-between w-4/5"
+          class="rounded-lg bg-orangey-yellow bg-opacity-10 py-4 sm:py-3 my-1.5 flex flex-row items-center justify-between mx-auto w-5/6"
         >
           <img
             class="px-3"
@@ -72,7 +84,7 @@
           </p>
         </div>
         <div
-          class="rounded-lg bg-green-teal bg-opacity-10 py-3 my-1.5 flex flex-row items-center justify-between w-4/5"
+          class="rounded-lg bg-green-teal bg-opacity-10 py-4 sm:py-3 my-1.5 flex flex-row items-center justify-between mx-auto w-5/6"
         >
           <img
             class="px-3"
@@ -86,7 +98,7 @@
           </p>
         </div>
         <div
-          class="rounded-lg bg-cobalt-blue bg-opacity-10 py-3 my-1.5 flex flex-row items-center justify-between w-4/5"
+          class="rounded-lg bg-cobalt-blue bg-opacity-10 py-4 sm:py-3 my-1.5 flex flex-row items-center justify-between mx-auto w-5/6"
         >
           <img
             class="px-3"
@@ -100,14 +112,14 @@
           </p>
         </div>
         <button
-          class="bg-dark-gray-blue py-3 m-10 w-4/5 text-pale-blue text-p rounded-full hover:bg-gradient-to-b from-grad-light-slate-blue to-grad-light-royal-blue"
+          class="bg-dark-gray-blue py-3 mx-10 my-6 sm:m-10 w-4/5 text-pale-blue text-p rounded-full hover:bg-gradient-to-b from-grad-light-slate-blue to-grad-light-royal-blue"
         >
           Continue
         </button>
       </section>
     </main>
 
-    <footer class="text-center text-xs py-8">
+    <footer class="hidden sm:block text-center text-xs py-8">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a

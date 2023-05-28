@@ -46,6 +46,7 @@ Users should be able to:
 - How to set up Tailwind in a vanilla JS project
 - How to set up a Tailwind config
 - More practice at actually using Tailwind
+- Why it's easier to start mobile-first with Tailwind
 
 ### Useful resources
 
