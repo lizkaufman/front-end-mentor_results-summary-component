@@ -23,7 +23,7 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body
-    class="h-screen font-sans text-center flex flex-col justify-items-center items-center"
+    class="h-screen font-sans text-center flex flex-col justify-center items-center"
   >
     <main class="flex flex-row w-720 rounded-3xl">
       <section
@@ -42,12 +42,68 @@
         </p>
       </section>
       <section class="flex flex-col w-1/2 items-center">
-        <h2>Summary</h2>
-        <div>Reaction</div>
-        <div>Memory</div>
-        <div>Verbal</div>
-        <div>Visual</div>
-        <button>Continue</button>
+        <h1 class="pt-8 pb-6 text-2xl text-dark-gray-blue">Summary</h1>
+        <div
+          class="rounded-lg bg-light-red bg-opacity-10 py-3 my-1.5 flex flex-row items-center justify-start w-4/5"
+        >
+          <img
+            class="px-3"
+            src="./assets/images/icon-reaction.svg"
+            alt="lightning bolt icon"
+          />
+          <h1 class="text-right text-light-red">Reaction</h1>
+          <p class="px-3 text-dark-gray-blue ml-auto">
+            80
+            <span class="opacity-50">/ 100</span>
+          </p>
+        </div>
+        <div
+          class="rounded-lg bg-orangey-yellow bg-opacity-10 py-3 my-1.5 flex flex-row items-center justify-between w-4/5"
+        >
+          <img
+            class="px-3"
+            src="./assets/images/icon-memory.svg"
+            alt="brain icon"
+          />
+          <h1 class="text-right text-orangey-yellow">Memory</h1>
+          <p class="px-3 text-dark-gray-blue ml-auto">
+            92
+            <span class="opacity-50">/ 100</span>
+          </p>
+        </div>
+        <div
+          class="rounded-lg bg-green-teal bg-opacity-10 py-3 my-1.5 flex flex-row items-center justify-between w-4/5"
+        >
+          <img
+            class="px-3"
+            src="./assets/images/icon-verbal.svg"
+            alt="speech bubble icon"
+          />
+          <h1 class="text-right text-green-teal">Verbal</h1>
+          <p class="px-3 text-dark-gray-blue ml-auto">
+            61
+            <span class="opacity-50">/ 100</span>
+          </p>
+        </div>
+        <div
+          class="rounded-lg bg-cobalt-blue bg-opacity-10 py-3 my-1.5 flex flex-row items-center justify-between w-4/5"
+        >
+          <img
+            class="px-3"
+            src="./assets/images/icon-visual.svg"
+            alt="eye icon"
+          />
+          <h1 class="text-right text-cobalt-blue">Visual</h1>
+          <p class="px-3 text-dark-gray-blue ml-auto">
+            72
+            <span class="opacity-50">/ 100</span>
+          </p>
+        </div>
+        <button
+          class="bg-dark-gray-blue py-3 m-10 w-4/5 text-pale-blue text-p rounded-full"
+        >
+          Continue
+        </button>
       </section>
     </main>
 
