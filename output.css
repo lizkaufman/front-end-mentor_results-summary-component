@@ -934,3 +934,7 @@ video {
 .opacity-100 {
   opacity: 1;
 }
+
+.hover\:bg-gradient-to-b:hover {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
