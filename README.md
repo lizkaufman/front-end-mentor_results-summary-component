@@ -49,9 +49,8 @@ Users should be able to:
 
 ### Useful resources
 
-- ChatGPT's clarification around `em` and `rem`:
-
-```md
+<details>
+<summary>ChatGPT's clarification around `em` and `rem`</summary>
 The em and rem units in CSS are relative units, while px is an absolute unit.
 
 1em is equal to the current font size of the element or the browser default. In most web browsers, the default font size is 16px. So by default, 1em is equal to 16px.
@@ -64,7 +63,9 @@ As for whether you should use em or rem, it mostly depends on your needs:
 
 rem is useful when you want to define sizes, margins, paddings, etc., in a consistent way, because they always refer to the root element's font size.
 em is useful when you want sizes (like line-height, padding, or margin) to be relative to the current element's font size.
-```
+
+</details>
+<br>
 
 ## Author
 
