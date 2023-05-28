@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution on Front End Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub)
+- [Solution on Front End Mentor](https://www.frontendmentor.io/solutions/results-summary-styled-completely-with-tailwind-FGIoNQk7_9)
 - [Solution live site](https://lizkaufman.github.io/front-end-mentor_results-summary-component/)
 
 ### Screenshot
